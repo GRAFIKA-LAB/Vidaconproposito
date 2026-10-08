@@ -68,18 +68,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               ))}
             </nav>
 
-            {/* Zone 3: 1-2 primary actions */}
-            <div className="hidden md:flex items-center space-x-3">
-              <button
-                type="button"
-                onClick={onOpenDeployGuide}
-                className="px-3.5 py-2 text-xs font-semibold text-amber-300 bg-amber-950/50 border border-amber-600/40 hover:border-amber-500 rounded-lg transition-colors flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
-                title="Ver pasos para poner esta página en internet 100% gratis"
-              >
-                <Rocket className="w-3.5 h-3.5" />
-                <span>Poner Web Gratis</span>
-              </button>
-
               <button
                 type="button"
                 onClick={onPlanVisit}
@@ -124,23 +112,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   onOpenDeployGuide();
                 }}
                 className="w-full py-2.5 px-3 text-xs font-semibold text-amber-300 bg-amber-950/50 border border-amber-600/40 rounded-lg flex items-center justify-center gap-2 cursor-pointer"
-              >
-                <Rocket className="w-4 h-4" />
-                <span>Poner Web Gratis</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenCustomizer();
-                }}
-                className="w-full py-2.5 px-3 text-xs font-semibold text-neutral-200 bg-neutral-800 border border-neutral-700 rounded-lg flex items-center justify-center gap-2 cursor-pointer"
-              >
-                <Sparkles className="w-4 h-4" />
-                <span>Personalizar</span>
-              </button>
-            </div>
-
+            
             <nav className="flex flex-col space-y-1.5 pt-2">
               {navLinks.map((link) => (
                 <a
