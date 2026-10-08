@@ -61,22 +61,7 @@ export default function App() {
     setTimeout(() => setMinistryConnectNotice(null), 5000);
   };
 
-  return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100 flex flex-col font-body selection:bg-amber-400 selection:text-neutral-950">
-      
-      {/* Top Banner / Aviso informativo sobre la Guía Gratuita */}
-      <div className="bg-gradient-to-r from-amber-950 via-neutral-900 to-amber-950 border-b border-amber-900/40 py-2 px-4 text-center text-xs text-amber-200">
-        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
-          <span>✨ ¿Quieres alojar esta página web para tu iglesia 100% gratis sin pagar mensualidades?</span>
-          <button
-            type="button"
-            onClick={() => setIsDeployGuideOpen(true)}
-            className="font-bold underline text-amber-300 hover:text-white cursor-pointer ml-1"
-          >
-            Ver Guía de Despliegue $0
-          </button>
-        </div>
-      </div>
+ 
 
       {/* Main Navigation Bar */}
       <Navbar
