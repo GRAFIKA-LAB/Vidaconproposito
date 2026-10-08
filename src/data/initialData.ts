@@ -8,8 +8,8 @@ export const defaultChurchConfig: ChurchConfig = {
     text: "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis.",
     reference: "Jeremías 29:11"
   },
-  pastors: "Pastores Principales David y Elizabeth Morales",
-  address: "Av. Principal Los Olivos #450, Sector Central",
+  pastors: "Pastores Principales Pablo Logis y Epifania Bonilla",
+  address: "Calle la torre #72 STGO OESTE - SANTIAGO",
   city: "Ciudad y Región",
   phone: "+1 (555) 789-0123",
   whatsapp: "+15557890123",
@@ -31,7 +31,7 @@ export const serviceSchedules: ServiceSchedule[] = [
   {
     id: "domingo-celebracion",
     day: "Domingos",
-    time: "10:00 AM",
+    time: "9:00 AM",
     title: "Culto Principal de Celebración y Alabanza",
     description: "Tiempo congregacional de adoración vibrante, ministración de la Palabra de Dios y Escuela Bíblica para niños.",
     tag: "Principal",
@@ -39,16 +39,16 @@ export const serviceSchedules: ServiceSchedule[] = [
   },
   {
     id: "domingo-tarde",
-    day: "Domingos",
-    time: "6:00 PM",
-    title: "Culto Vespertino de Adoración y Avivamiento",
-    description: "Una reunión llena de alabanza, comunión familiar y palabra inspiradora para comenzar la semana con bendición.",
+    day: "Martes",
+    time: "8:00 PM",
+    title: "Estudio Biblico",
+    description: "Profundizamos en las Sagradas Escrituras verso por verso, intercediendo por familias, salud y necesidades de la iglesia.",
     tag: "Familiar",
     location: "Santuario Principal"
   },
   {
     id: "miercoles-discipulado",
-    day: "Miércoles",
+    day: "Jueves",
     time: "7:30 PM",
     title: "Noche de Poder, Oración y Estudio Bíblico",
     description: "Profundizamos en las Sagradas Escrituras verso por verso, intercediendo por familias, salud y necesidades de la iglesia.",
@@ -100,7 +100,7 @@ export const cardinalDoctrines = [
 export const ministries: Ministry[] = [
   {
     id: "ninos",
-    name: "Semillas del Reino",
+    name: "PropositoKids",
     subtitle: "Ministerio Infantil (3 a 11 años)",
     description: "Un espacio seguro y divertido donde los más pequeños aprenden valores bíblicos, cantan alabanzas y descubren el amor de Jesús con maestros capacitados.",
     schedule: "Domingos durante los cultos de 10:00 AM",
@@ -155,7 +155,7 @@ export const ministries: Ministry[] = [
   },
   {
     id: "alabanza",
-    name: "Kadosh Worship",
+    name: "Alabanza con proposito",
     subtitle: "Ministerio de Música y Alabanza",
     description: "Músicos y vocalistas consagrados a guiar al pueblo de Dios hacia una adoración genuina en espíritu y en verdad, con excelencia.",
     schedule: "Ensayos los Martes a las 7:00 PM",
@@ -170,7 +170,7 @@ export const sampleSermons: Sermon[] = [
   {
     id: "sermon-1",
     title: "Caminando en el Propósito Eterno",
-    speaker: "Pastor David Morales",
+    speaker: "Pastor Pablo Logis Gonzalez",
     date: "Último Domingo",
     passage: "Romanos 8:28",
     series: "Serie: Diseñados para Trascender",
@@ -185,7 +185,7 @@ export const sampleSermons: Sermon[] = [
   {
     id: "sermon-2",
     title: "Llenos del Espíritu para Vencer",
-    speaker: "Pastora Elizabeth Morales",
+    speaker: "Pastora Epifania Bonilla",
     date: "Hace 1 semana",
     passage: "Hechos 1:8 & Efesios 5:18",
     series: "Serie: El Fuego de Pentecostés",
@@ -197,21 +197,7 @@ export const sampleSermons: Sermon[] = [
       "Un corazón limpio es la morada donde el fuego de Dios permanece."
     ]
   },
-  {
-    id: "sermon-3",
-    title: "Restauración Familiar en Tiempos de Crisis",
-    speaker: "Pastor Invitado Carlos Mendoza",
-    date: "Hace 2 semanas",
-    passage: "Josué 24:15",
-    series: "Serie: Hogares sobre la Roca",
-    duration: "41 min",
-    summary: "Herramientas bíblicas prácticas para sanar la comunicación entre esposos e hijos y levantar un altar de oración en el centro del hogar.",
-    keyPoints: [
-      "El perdón diario es el escudo de un matrimonio bendecido.",
-      "Instruir a los hijos con el ejemplo antes que con meras palabras.",
-      "La decisión voluntaria: Yo y mi casa serviremos a Jehová."
-    ]
-  }
+
 ];
 
 export const initialPrayerRequests: PrayerRequest[] = [
