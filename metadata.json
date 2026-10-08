@@ -1,0 +1,6 @@
+{
+  "name": "Iglesia Vida con Propósito - Asambleas de Dios",
+  "description": "Sitio web oficial de la Iglesia Cristiana Vida con Propósito de las Asambleas de Dios. Horarios de culto, ministerios, peticiones de oración, mensajes y guía comunitaria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
